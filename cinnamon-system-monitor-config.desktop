@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=Cinnamon: System Monitor Preference
+Comment=Preference Editor for Cinnamon system monitor extension
+Exec=cinnamon-system-monitor-config
+Terminal=false
+Type=Application
+Icon=utilities-system-monitor
+Categories=GNOME;System;

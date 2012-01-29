@@ -1,0 +1,4 @@
+cinnamon-system-monitor-config
+cinnamon-system-monitor-config.desktop.in
+src/extension.js
+src/org.cinnamon.extensions.system-monitor.gschema.xml.in

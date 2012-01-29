@@ -1,0 +1,22 @@
+Source: cinnamon-extensions-system-monitor
+Section: gnome
+Priority: extra
+Maintainer: merlwiz79 <mintmerlwiz79@gmail.com>
+Build-Depends: debhelper (>= 7),
+ cdbs,
+ gnome-pkg-tools,
+ intltool,
+ libglib2.0-dev,
+ libgnome-desktop-3-dev (>= 2.91.6)
+Standards-Version: 3.9.2
+Vcs-Git: git://github.com/merlwiz79/cinnamon-extensions-system-monitor.git
+Vcs-browser: https://github.com/merlwiz79/cinnamon-extensions-system-monitor
+Homepage: https://github.com/merlwiz79/cinnamon-extensions-system-monitor
+
+Package: cinnamon-extensions-system-monitor
+Architecture: all
+Depends: ${misc:Depends}, cinnamon, python (>= 2.7), libgtop2-7, python3-gobject, gir1.2-gtop-2.0, gir1.2-networkmanager-1.0
+Recomends: gnome-system-monitor
+Suggests: lm-sensors
+Description: System monitor extension for cinnamon
+ Display system informations in Cinnamon status bar, such as memory usage, CPU usage, network rates...
